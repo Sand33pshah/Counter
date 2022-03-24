@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Counter</title>
+        <link rel="stylesheet" href="style.css">
+        <h1 id="hello">Hello I will count for you</h1>
+    </head>
+    <body>
+        <p id="counter">0</p>
+        <p id="info">Please click on to the button for Counter</p>
+        <button onclick="displaycount()" id="button" >Click Me</button>
+    </body>
+    <script>
+        var count = (function()
+        {
+            var counter = 0;
+            return function()
+            {
+                return counter+=1;
+            }
+        })();
+        function displaycount()
+        {
+            document.getElementById("counter").innerHTML = count();
+        }
+    </script>
+</html>

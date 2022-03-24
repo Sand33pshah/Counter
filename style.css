@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: olivedrab;
+
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#hello{
+    font-size:50px;
+    padding: 40px;
+}
+#info{
+    margin-top: 15px;
+    padding: 35px;
+    font-size: 25px;
+    font-size: large;
+}
+#counter{
+    font-size: 50px;
+}
+#button{
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    font-size: large;
+}
